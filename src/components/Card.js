@@ -3,6 +3,7 @@ import React from "react";
 export const Card = (props) => {
   const { country } = props;
 
+  // Format les 1000 avec un espace
   const numberFormat = (x) => {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   };
